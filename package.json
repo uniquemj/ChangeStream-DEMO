@@ -14,10 +14,12 @@
   "dependencies": {
     "dotenv": "^17.2.2",
     "mongodb": "^6.20.0",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "@types/node": "^24.5.2",
+    "@types/pg": "^8.15.5",
     "typescript": "^5.9.2"
   }
 }
