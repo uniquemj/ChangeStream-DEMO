@@ -38,7 +38,7 @@ Change Streams require MongoDB to run as a **replica set**. If you are running M
 5. Initialize the replica set, inside `mongosh`, run:
 
     ```bash
-    rs.initialize()
+    rs.initiate()
 6. Verify replica set status:
 
     ```bash
