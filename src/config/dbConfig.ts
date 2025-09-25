@@ -8,7 +8,7 @@ export const connectToMongoDB = async(MONGODB_URL: string): Promise<MongoClient>
         console.log('Connected to MongoDB . . .')
         return client
     }catch(e){
-        console.log('Error Connecting to MongoDB')
+        console.log('Error Connecting to MongoDB: ',e)
         process.exit(0)
     }
 }
